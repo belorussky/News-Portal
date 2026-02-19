@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @viteReactRefresh
-    @vite('resources/js/app.jsx')
+    @vite('resources/js/app.tsx')
     @inertiaHead
+    @routes()
 </head>
 <body>
     @inertia()
